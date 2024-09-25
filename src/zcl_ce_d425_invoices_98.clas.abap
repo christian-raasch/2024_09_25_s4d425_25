@@ -8,8 +8,8 @@ CLASS zcl_ce_d425_invoices_98 DEFINITION
    INTERFACES if_oo_adt_classrun .
    INTERFACES if_rap_query_provider.
 
-* Add the following type declaration to the Public Section of your class ZCL_CE_D425_INVOICES_##:
-* -----------------------------------------------------------------------------------------------
+** Add the following type declaration to the Public Section of your class ZCL_CE_D425_INVOICES_##:
+** -----------------------------------------------------------------------------------------------
    TYPES tt_business_data TYPE zsc_d425_invoices_98=>tyt_zz_1_customerinvoice_98_ty.
 
 * Add the following method definition to the Public Section of your class ZCL_CE_D425_INVOICES_##:
